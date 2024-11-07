@@ -31,28 +31,255 @@
 }
 
 .services{
-    color:white;
+    color:black;
     font-weight: 200;
     text-align: center;
     padding-top: 20px;
     padding-block-end: 50px;
     margin-bottom: 20px;
     font-size: larger;
+    box-sizing: content-box;
 }
 
 .services h3 {
-    border: solid 2px greenyellow;
+    border: solid 2px black;
     display: inline-block;
     font-weight:normal;
     padding: 30px;
-    background-color: aqua;
+    background-color:antiquewhite;
+    border-radius: 10px;
+    
 }
 .search{
     float: right;
+    width: 330px;
+    margin-left: 270px;
 }
 
-.container{
-    display: grid;
-    gap: 10px;
-    grid-template-columns: 4, 1f;
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: white;
+    border: 1px solid black;
+    margin-top: 13px;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    
 }
+
+.btn{
+    width: 200px;
+    height: 40px;
+    background:black;
+    border: 2px solid black;
+    color: white;
+    margin-top: 13px;
+    font-size: 16px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;   
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding-inline: 30px;
+    padding: 10px;
+    background-color: antiquewhite;
+    
+  }
+  
+  .grid-item {
+    padding: 20px;
+    border-radius: 25px;
+    transition: box-shadow 0.2s ease-in-out;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+  }
+
+ 
+  .grid-item:hover {
+    box-shadow: red;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: 0.4s ease-out;
+    color:red;
+  }
+  .nav h2{
+    color: rgba(48, 6, 6, 0.562);
+  }
+
+  .content{
+    height: auto;
+    margin: auto;
+    width: 1200px;
+    position: relative;
+    color: black;
+  }
+
+  .content .para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+  }
+
+  .content .h1{
+    padding-left: 20px;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+    margin-top: 9%;
+  }
+
+  .content .but{
+    background:antiquewhite;
+    border: none;
+    height: 30px;
+    width: 100px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease-out;
+  }
+
+  .content .but a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease-out;
+  }
+
+  .but:hover{
+    background-color: red;
+  }
+
+  .content span{
+    color: blueviolet;
+    font-size: 50px;
+  }
+
+  .content h1{
+    color: rgba(48, 6, 6, 0.562)
+  }
+
+  .form{
+    width: 400px;
+    height: 475px;
+    background-color:antiquewhite;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    left: 800px;
+    top: 10px;
+    text-align: center;
+  }
+
+  .form h2{
+    width: 300px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 20px;
+    color: brown;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    
+  }
+
+  .form input{
+    width: 300px;
+    font-family: Arial;
+    text-align: center;
+    font-size: 20px;
+    color:black;
+    background-color:white;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    padding: 10px;
+
+  }
+  
+  ::placeholder{
+    
+    font-family: Arial;
+    background-color: white;
+  }
+
+  .butt{
+    background-color: white;
+    height: 30px;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.4s ease-out;
+
+    
+  }
+
+  .butt:hover{
+    background-color: red;
+  }
+
+  .butt a{
+    text-decoration: none;
+    color: rgb(230, 23, 23);
+    
+    font-weight: bold;
+  }
+
+  .link{
+    padding-top: 40px;
+    text-align:center;
+    font-size: 17px;
+    border-radius: 10px;
+  }
+
+  .link a{
+    text-decoration: none;
+    border-radius: 5px;
+    color: blue;
+
+  }
+  
+
+  .lwi{
+    padding-top: 15px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium';
+    font-size: 15px;
+    color:red;
+  }
+
+  .logo{
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 5px;
+  }
+
+
+
