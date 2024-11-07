@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:aqua
+}
+    
+.menu{
+    display: flex;   
+}
+
+.mid{
+    text-align: center;
+}
+
+.mid p {
+  width: 70%;
+  margin: 0 auto;
+ text-align: center;
+  padding-top: 30px;
+  font-size: 1.5rem;
+}
+
+.mid h1{
+    color:white;
+      text-align: center;
+      padding-top: 30px;
+      font-size: 2rem;
+}
+
+.services{
+    color:white;
+    font-weight: 200;
+    text-align: center;
+    padding-top: 20px;
+    padding-block-end: 50px;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+.services h3 {
+    border: solid 2px greenyellow;
+    display: inline-block;
+    font-weight:normal;
+    padding: 30px;
+    background-color: aqua;
+}
+.search{
+    float: right;
+}
+
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 4, 1f;
+}
